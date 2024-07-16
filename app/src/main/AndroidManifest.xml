@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ADSphone_app"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.LienHeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ThongTinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SeeAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GioHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accountEmail.Login_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".otpphoner.LoginOtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".otpphoner.LoginPhoneNumber"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Manhinhcho"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GiayPumaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GiayNikeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GiayDaBongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accountEmail.Register_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GiayAdidasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Manhinhchao"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

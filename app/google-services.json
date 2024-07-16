@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "271317558641",
+    "project_id": "phonenumbersms-4ae1d",
+    "storage_bucket": "phonenumbersms-4ae1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271317558641:android:7d32dd3a4765390929c2d0",
+        "android_client_info": {
+          "package_name": "com.example.adsphone_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vNeCJnWl8i0dwRYI3ni06b_v7jUQvqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271317558641:android:70b02559fe0a4b4429c2d0",
+        "android_client_info": {
+          "package_name": "com.example.phonesms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vNeCJnWl8i0dwRYI3ni06b_v7jUQvqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271317558641:android:5ad41425b13b15c029c2d0",
+        "android_client_info": {
+          "package_name": "com.example.shoseads_sneaker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vNeCJnWl8i0dwRYI3ni06b_v7jUQvqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

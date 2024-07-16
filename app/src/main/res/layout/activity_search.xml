@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SearchActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="40dp"
+            android:layout_marginBottom="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/arrow_back"/>
+
+        <EditText
+            android:id="@+id/edtsearch"
+            android:layout_width="270dp"
+            android:hint="Search..."
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_img"
+            android:padding="5dp"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/search"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview_search"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
